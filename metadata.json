@@ -1,0 +1,5 @@
+{
+  "name": "StockGPT",
+  "description": "AI chat interface for stock analysis with chain of thought visualization.",
+  "requestFramePermissions": []
+}

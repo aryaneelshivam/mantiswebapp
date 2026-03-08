@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
 
-const ai = new GoogleGenAI({ apiKey: 'AIzaSyDneQe0Ykps4uFxwHBY_z2zt-1yrON8i88' });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY });
 
 export const MASTER_PROMPT = `You are an advanced multi-layer market regime reasoning engine operating on MANTIS-generated datasets.
 
